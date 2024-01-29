@@ -1,0 +1,26 @@
+﻿<style>
+    body {
+        background: url('https://ik.imagekit.io/idhgmnvrqc/win_compressed.jpg?updatedAt=1701107255502') center/cover;
+    }
+</style>
+
+<div id="game-over-container">
+    <h2 id="winner-message">Game Over!</h2>
+    <h1 id="winner-name">@ViewBag.Winner WON!</h1>
+    <button id="play-again-button" onclick="playAgain()">Play Again</button>
+</div>
+
+<audio id="audioVictory" src="/sounds/victory.mp3"></audio>
+
+<script>
+
+    $(document).ready(function () {
+        var audio = $("#audioVictory")[0];
+        audio.play();
+    })
+
+
+    function playAgain() {
+         window.location.href = '/Lobby/Index';
+    }
+</script>
