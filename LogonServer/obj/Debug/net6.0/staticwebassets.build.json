@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "doQpQwEoPL6VrHFTcLde3KVmaL4A9L1F7eAlZwN5sNc=",
+  "Source": "LogonServer",
+  "BasePath": "_content/LogonServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
